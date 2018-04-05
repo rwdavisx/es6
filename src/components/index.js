@@ -4,3 +4,6 @@ export {Functions} from './scoping/functions';
 export {ExpressionBodies} from './arrow-functions/expressionBodies';
 export {StatementBodies} from './arrow-functions/statementBodies';
 export {LexicalThis} from './arrow-functions/lexicalThis';
+export {DefaultParameterValues} from './extended-parameter-handling/defaultParameterValues';
+export {RestParameter} from './extended-parameter-handling/restParameter';
+export {SpreadOperator} from './extended-parameter-handling/spreadOperator';
