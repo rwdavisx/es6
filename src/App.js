@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Constants, Functions, Variables, ExpressionBodies, StatementBodies, LexicalThis, DefaultParameterValues, RestParameter, SpreadOperator} from './components/index';
+import {Constants, Functions, Variables, ExpressionBodies, StatementBodies, LexicalThis,
+    DefaultParameterValues, RestParameter, SpreadOperator, StringInterpolation, CustomInterpolation,
+    RawStringAccess} from './components/index';
 
 class App extends Component {
     render() {
@@ -20,6 +22,9 @@ class App extends Component {
                 <DefaultParameterValues/>
                 <RestParameter/>
                 <SpreadOperator/>
+                <StringInterpolation/>
+                <CustomInterpolation/>
+                <RawStringAccess/>
             </div>
         );
     }

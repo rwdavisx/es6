@@ -7,3 +7,6 @@ export {LexicalThis} from './arrow-functions/lexicalThis';
 export {DefaultParameterValues} from './extended-parameter-handling/defaultParameterValues';
 export {RestParameter} from './extended-parameter-handling/restParameter';
 export {SpreadOperator} from './extended-parameter-handling/spreadOperator';
+export {StringInterpolation} from './template-literals/stringInterpolation';
+export {CustomInterpolation} from './template-literals/customInterpolation';
+export {RawStringAccess} from './template-literals/rawStringAccess';
