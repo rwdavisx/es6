@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Constants, Functions, Variables} from './components/index';
+import {Constants, Functions, Variables, ExpressionBodies, StatementBodies, LexicalThis} from './components/index';
 
 class App extends Component {
     render() {
@@ -14,6 +14,9 @@ class App extends Component {
                 <Constants/>
                 <Variables/>
                 <Functions/>
+                <ExpressionBodies/>
+                <StatementBodies/>
+                <LexicalThis/>
             </div>
         );
     }
