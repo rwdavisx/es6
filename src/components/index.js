@@ -10,3 +10,6 @@ export {SpreadOperator} from './extended-parameter-handling/spreadOperator';
 export {StringInterpolation} from './template-literals/stringInterpolation';
 export {CustomInterpolation} from './template-literals/customInterpolation';
 export {RawStringAccess} from './template-literals/rawStringAccess';
+export {PropertyShorthand} from './enhanced-object-properties/propertyShorthand';
+export {ComputedPropertyNames} from './enhanced-object-properties/computedPropertyNames';
+export {MethodProperties} from './enhanced-object-properties/methodProperties';

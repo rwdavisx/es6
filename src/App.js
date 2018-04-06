@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import {Constants, Functions, Variables, ExpressionBodies, StatementBodies, LexicalThis,
     DefaultParameterValues, RestParameter, SpreadOperator, StringInterpolation, CustomInterpolation,
-    RawStringAccess} from './components/index';
+    RawStringAccess, PropertyShorthand, ComputedPropertyNames, MethodProperties} from './components/index';
 
 class App extends Component {
     render() {
@@ -25,6 +25,9 @@ class App extends Component {
                 <StringInterpolation/>
                 <CustomInterpolation/>
                 <RawStringAccess/>
+                <PropertyShorthand/>
+                <ComputedPropertyNames/>
+                <MethodProperties/>
             </div>
         );
     }
